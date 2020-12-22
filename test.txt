@@ -1,0 +1,540 @@
+Last login: Sun Dec 20 14:27:37 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb shell
+error: no devices/emulators found
+Yuriys-MacBook-Air:~ yuriypeshkichev$ ды
+-bash: ды: command not found
+Yuriys-MacBook-Air:~ yuriypeshkichev$ ls
+Applications				PHO_7429.jpg
+Bitrix24				PHO_7430.jpg
+Calibre Library				PHO_7433.jpg
+Creative Cloud Files			Pictures
+Desktop					Public
+Documents				Samsung
+Downloads				W671D87B3102620406
+Dropbox					Yandex.Disk-yuri.peshkichev.localized
+Library					Yandex.Disk-yuri@ussd.ru.localized
+MPSProjects				Yandex.Disk.localized
+MPSSamples.2018.2.5			dev
+Movies					iCloud Drive (Archive)
+Music					iSkysoft
+Nextcloud				ownCloud
+PHO_7424.jpg				skype-export
+PHO_7426.jpg
+Yuriys-MacBook-Air:~ yuriypeshkichev$ cd .adb
+-bash: cd: .adb: No such file or directory
+Yuriys-MacBook-Air:~ yuriypeshkichev$ echo 0x04e8 >> adb_usb.ini
+Yuriys-MacBook-Air:~ yuriypeshkichev$ echo -n > adb_usb.ini
+Yuriys-MacBook-Air:~ yuriypeshkichev$ echo 0x04e8 >> adb_usb.ini
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb kill-server
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb devices
+* daemon not running; starting now at tcp:5037
+* daemon started successfully
+List of devices attached
+
+Yuriys-MacBook-Air:~ yuriypeshkichev$ sudo kextunload /System/Library/Extensions/EasyTetherUSBEthernet.kext
+Password:
+Executing: /usr/bin/kmutil unload -p /System/Library/Extensions/EasyTetherUSBEthernet.kext
+Could not find: No bundle was found at /System/Library/Extensions/EasyTetherUSBEthernet.kext.
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb devices
+List of devices attached
+
+Yuriys-MacBook-Air:~ yuriypeshkichev$ echo -n > adb_usb.ini
+Yuriys-MacBook-Air:~ yuriypeshkichev$ echo "0x04e8" >> adb_usb.ini
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb kill-server
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb devices
+* daemon not running; starting now at tcp:5037
+* daemon started successfully
+List of devices attached
+
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb devices
+List of devices attached
+
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb devices
+List of devices attached
+
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb shell
+error: no devices/emulators found
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb shell
+error: no devices/emulators found
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb devices
+List of devices attached
+
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb devices
+List of devices attached
+
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb shell
+error: no devices/emulators found
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb shell
+error: no devices/emulators found
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb shell
+error: no devices/emulators found
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb devices
+List of devices attached
+
+Yuriys-MacBook-Air:~ yuriypeshkichev$ 
+  [Restored 20 Dec 2020, 20:40:33]
+Last login: Sun Dec 20 20:40:15 on console
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb shell
+* daemon not running; starting now at tcp:5037
+* daemon started successfully
+error: no devices/emulators found
+Yuriys-MacBook-Air:~ yuriypeshkichev$ echo 0x2717 >> adb_usb.ini
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb kill-server
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb shell
+* daemon not running; starting now at tcp:5037
+* daemon started successfully
+error: no devices/emulators found
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb devices
+List of devices attached
+
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb devices
+List of devices attached
+
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb shell
+error: no devices/emulators found
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb shell
+error: no devices/emulators found
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb shell
+error: no devices/emulators found
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb shell
+error: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb shell
+error: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb devices
+List of devices attached
+LGD855ad1b000f	unauthorized
+
+Yuriys-MacBook-Air:~ yuriypeshkichev$ ls
+Applications				PHO_7429.jpg
+Bitrix24				PHO_7430.jpg
+Calibre Library				PHO_7433.jpg
+Creative Cloud Files			Pictures
+Desktop					Public
+Documents				Samsung
+Downloads				W671D87B3102620406
+Dropbox					Yandex.Disk-yuri.peshkichev.localized
+Library					Yandex.Disk-yuri@ussd.ru.localized
+MPSProjects				Yandex.Disk.localized
+MPSSamples.2018.2.5			dev
+Movies					iCloud Drive (Archive)
+Music					iSkysoft
+Nextcloud				ownCloud
+PHO_7424.jpg				skype-export
+PHO_7426.jpg
+Yuriys-MacBook-Air:~ yuriypeshkichev$ ls ~/.android
+adb_usb.ini	adbkey		adbkey.pub
+Yuriys-MacBook-Air:~ yuriypeshkichev$ print adb_usd.ini
+-bash: print: command not found
+Yuriys-MacBook-Air:~ yuriypeshkichev$ print adb_usb.ini
+-bash: print: command not found
+Yuriys-MacBook-Air:~ yuriypeshkichev$ view adb_usb.ini
+Yuriys-MacBook-Air:~ yuriypeshkichev$ view ~/.adb_usb.ini
+Yuriys-MacBook-Air:~ yuriypeshkichev$ echo 0x1004 >> adb_usb.ini
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb kill-server
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb devices
+* daemon not running; starting now at tcp:5037
+* daemon started successfully
+List of devices attached
+LGD855ad1b000f	unauthorized
+
+Yuriys-MacBook-Air:~ yuriypeshkichev$ adb shell
+error: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+Yuriys-MacBook-Air:~ yuriypeshkichev$ $ brew install git
+-bash: $: command not found
+Yuriys-MacBook-Air:~ yuriypeshkichev$ brew install git
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> New Formulae
+aida-header                libcap-ng                  wayland
+atkmm@2.28                 libnsl                     wayland-protocols
+aws-console                libvdpau                   xcb-util-cursor
+flow-cli                   libvnc                     xcb-util-image
+glibmm@2.64                muffet                     xcb-util-keysyms
+gtk+4                      oakc                       xcb-util-renderutil
+gtkmm4                     pangomm@2.42               xcb-util-wm
+heppdt2                    spack                      xcbeautify
+jql                        thrax                      xcinfo
+khiva                      trec_eval                  zsh-async
+==> Updated Formulae
+Updated 584 formulae.
+==> New Casks
+aural                      reamp                      trojanx
+curiosity                  scrapp                     youtube-downloader
+jellybeansoup-netflix      shearwater-cloud
+locationsimulator          tradingview
+==> Updated Casks
+Updated 915 casks.
+==> Deleted Casks
+fractal-bot                master-password            openxcom
+gfortran                   monogame                   softu2f
+
+==> Downloading https://homebrew.bintray.com/bottles/gettext-0.21.big_sur.bottle
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/a025e143fe3f5f7e24a93
+######################################################################## 100.0%
+==> Downloading https://homebrew.bintray.com/bottles/pcre2-10.36.big_sur.bottle.
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/b2edbffaf229fc490843e
+######################################################################## 100.0%
+==> Downloading https://homebrew.bintray.com/bottles/git-2.29.2.big_sur.bottle.t
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/99ffa981e42bfb6ed77fc
+######################################################################## 100.0%
+==> Installing dependencies for git: gettext and pcre2
+==> Installing git dependency: gettext
+==> Pouring gettext-0.21.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/gettext/0.21: 1,953 files, 19.8MB
+==> Installing git dependency: pcre2
+==> Pouring pcre2-10.36.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/pcre2/10.36: 230 files, 6.2MB
+==> Installing git
+==> Pouring git-2.29.2.big_sur.bottle.tar.gz
+Error: The `brew link` step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+Could not symlink bin/git
+Target /usr/local/bin/git
+already exists. You may want to remove it:
+  rm '/usr/local/bin/git'
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite git
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run git
+
+Possible conflicting files are:
+/usr/local/bin/git -> /usr/local/git/bin/git
+/usr/local/bin/git-cvsserver -> /usr/local/git/bin/git-cvsserver
+/usr/local/bin/git-shell -> /usr/local/git/bin/git-shell
+/usr/local/share/man/man1/git-add.1 -> /usr/local/git/share/man/man1/git-add.1
+/usr/local/share/man/man1/git-am.1 -> /usr/local/git/share/man/man1/git-am.1
+/usr/local/share/man/man1/git-annotate.1 -> /usr/local/git/share/man/man1/git-annotate.1
+/usr/local/share/man/man1/git-apply.1 -> /usr/local/git/share/man/man1/git-apply.1
+/usr/local/share/man/man1/git-archimport.1 -> /usr/local/git/share/man/man1/git-archimport.1
+/usr/local/share/man/man1/git-archive.1 -> /usr/local/git/share/man/man1/git-archive.1
+/usr/local/share/man/man1/git-bisect.1 -> /usr/local/git/share/man/man1/git-bisect.1
+/usr/local/share/man/man1/git-blame.1 -> /usr/local/git/share/man/man1/git-blame.1
+/usr/local/share/man/man1/git-branch.1 -> /usr/local/git/share/man/man1/git-branch.1
+/usr/local/share/man/man1/git-bundle.1 -> /usr/local/git/share/man/man1/git-bundle.1
+/usr/local/share/man/man1/git-cat-file.1 -> /usr/local/git/share/man/man1/git-cat-file.1
+/usr/local/share/man/man1/git-check-attr.1 -> /usr/local/git/share/man/man1/git-check-attr.1
+/usr/local/share/man/man1/git-check-ignore.1 -> /usr/local/git/share/man/man1/git-check-ignore.1
+/usr/local/share/man/man1/git-check-mailmap.1 -> /usr/local/git/share/man/man1/git-check-mailmap.1
+/usr/local/share/man/man1/git-check-ref-format.1 -> /usr/local/git/share/man/man1/git-check-ref-format.1
+/usr/local/share/man/man1/git-checkout-index.1 -> /usr/local/git/share/man/man1/git-checkout-index.1
+/usr/local/share/man/man1/git-checkout.1 -> /usr/local/git/share/man/man1/git-checkout.1
+/usr/local/share/man/man1/git-cherry-pick.1 -> /usr/local/git/share/man/man1/git-cherry-pick.1
+/usr/local/share/man/man1/git-cherry.1 -> /usr/local/git/share/man/man1/git-cherry.1
+/usr/local/share/man/man1/git-citool.1 -> /usr/local/git/share/man/man1/git-citool.1
+/usr/local/share/man/man1/git-clean.1 -> /usr/local/git/share/man/man1/git-clean.1
+/usr/local/share/man/man1/git-clone.1 -> /usr/local/git/share/man/man1/git-clone.1
+/usr/local/share/man/man1/git-column.1 -> /usr/local/git/share/man/man1/git-column.1
+/usr/local/share/man/man1/git-commit-graph.1 -> /usr/local/git/share/man/man1/git-commit-graph.1
+/usr/local/share/man/man1/git-commit-tree.1 -> /usr/local/git/share/man/man1/git-commit-tree.1
+/usr/local/share/man/man1/git-commit.1 -> /usr/local/git/share/man/man1/git-commit.1
+/usr/local/share/man/man1/git-config.1 -> /usr/local/git/share/man/man1/git-config.1
+/usr/local/share/man/man1/git-count-objects.1 -> /usr/local/git/share/man/man1/git-count-objects.1
+/usr/local/share/man/man1/git-credential-cache--daemon.1 -> /usr/local/git/share/man/man1/git-credential-cache--daemon.1
+/usr/local/share/man/man1/git-credential-cache.1 -> /usr/local/git/share/man/man1/git-credential-cache.1
+/usr/local/share/man/man1/git-credential-store.1 -> /usr/local/git/share/man/man1/git-credential-store.1
+/usr/local/share/man/man1/git-credential.1 -> /usr/local/git/share/man/man1/git-credential.1
+/usr/local/share/man/man1/git-cvsexportcommit.1 -> /usr/local/git/share/man/man1/git-cvsexportcommit.1
+/usr/local/share/man/man1/git-cvsimport.1 -> /usr/local/git/share/man/man1/git-cvsimport.1
+/usr/local/share/man/man1/git-cvsserver.1 -> /usr/local/git/share/man/man1/git-cvsserver.1
+/usr/local/share/man/man1/git-daemon.1 -> /usr/local/git/share/man/man1/git-daemon.1
+/usr/local/share/man/man1/git-describe.1 -> /usr/local/git/share/man/man1/git-describe.1
+/usr/local/share/man/man1/git-diff-files.1 -> /usr/local/git/share/man/man1/git-diff-files.1
+/usr/local/share/man/man1/git-diff-index.1 -> /usr/local/git/share/man/man1/git-diff-index.1
+/usr/local/share/man/man1/git-diff-tree.1 -> /usr/local/git/share/man/man1/git-diff-tree.1
+/usr/local/share/man/man1/git-diff.1 -> /usr/local/git/share/man/man1/git-diff.1
+/usr/local/share/man/man1/git-difftool.1 -> /usr/local/git/share/man/man1/git-difftool.1
+/usr/local/share/man/man1/git-fast-export.1 -> /usr/local/git/share/man/man1/git-fast-export.1
+/usr/local/share/man/man1/git-fast-import.1 -> /usr/local/git/share/man/man1/git-fast-import.1
+/usr/local/share/man/man1/git-fetch-pack.1 -> /usr/local/git/share/man/man1/git-fetch-pack.1
+/usr/local/share/man/man1/git-fetch.1 -> /usr/local/git/share/man/man1/git-fetch.1
+/usr/local/share/man/man1/git-filter-branch.1 -> /usr/local/git/share/man/man1/git-filter-branch.1
+/usr/local/share/man/man1/git-fmt-merge-msg.1 -> /usr/local/git/share/man/man1/git-fmt-merge-msg.1
+/usr/local/share/man/man1/git-for-each-ref.1 -> /usr/local/git/share/man/man1/git-for-each-ref.1
+/usr/local/share/man/man1/git-format-patch.1 -> /usr/local/git/share/man/man1/git-format-patch.1
+/usr/local/share/man/man1/git-fsck-objects.1 -> /usr/local/git/share/man/man1/git-fsck-objects.1
+/usr/local/share/man/man1/git-fsck.1 -> /usr/local/git/share/man/man1/git-fsck.1
+/usr/local/share/man/man1/git-gc.1 -> /usr/local/git/share/man/man1/git-gc.1
+/usr/local/share/man/man1/git-get-tar-commit-id.1 -> /usr/local/git/share/man/man1/git-get-tar-commit-id.1
+/usr/local/share/man/man1/git-grep.1 -> /usr/local/git/share/man/man1/git-grep.1
+/usr/local/share/man/man1/git-gui.1 -> /usr/local/git/share/man/man1/git-gui.1
+/usr/local/share/man/man1/git-hash-object.1 -> /usr/local/git/share/man/man1/git-hash-object.1
+/usr/local/share/man/man1/git-help.1 -> /usr/local/git/share/man/man1/git-help.1
+/usr/local/share/man/man1/git-http-backend.1 -> /usr/local/git/share/man/man1/git-http-backend.1
+/usr/local/share/man/man1/git-http-fetch.1 -> /usr/local/git/share/man/man1/git-http-fetch.1
+/usr/local/share/man/man1/git-http-push.1 -> /usr/local/git/share/man/man1/git-http-push.1
+/usr/local/share/man/man1/git-imap-send.1 -> /usr/local/git/share/man/man1/git-imap-send.1
+/usr/local/share/man/man1/git-index-pack.1 -> /usr/local/git/share/man/man1/git-index-pack.1
+/usr/local/share/man/man1/git-init-db.1 -> /usr/local/git/share/man/man1/git-init-db.1
+/usr/local/share/man/man1/git-init.1 -> /usr/local/git/share/man/man1/git-init.1
+/usr/local/share/man/man1/git-instaweb.1 -> /usr/local/git/share/man/man1/git-instaweb.1
+/usr/local/share/man/man1/git-interpret-trailers.1 -> /usr/local/git/share/man/man1/git-interpret-trailers.1
+/usr/local/share/man/man1/git-log.1 -> /usr/local/git/share/man/man1/git-log.1
+/usr/local/share/man/man1/git-ls-files.1 -> /usr/local/git/share/man/man1/git-ls-files.1
+/usr/local/share/man/man1/git-ls-remote.1 -> /usr/local/git/share/man/man1/git-ls-remote.1
+/usr/local/share/man/man1/git-ls-tree.1 -> /usr/local/git/share/man/man1/git-ls-tree.1
+/usr/local/share/man/man1/git-mailinfo.1 -> /usr/local/git/share/man/man1/git-mailinfo.1
+/usr/local/share/man/man1/git-mailsplit.1 -> /usr/local/git/share/man/man1/git-mailsplit.1
+/usr/local/share/man/man1/git-merge-base.1 -> /usr/local/git/share/man/man1/git-merge-base.1
+/usr/local/share/man/man1/git-merge-file.1 -> /usr/local/git/share/man/man1/git-merge-file.1
+/usr/local/share/man/man1/git-merge-index.1 -> /usr/local/git/share/man/man1/git-merge-index.1
+/usr/local/share/man/man1/git-merge-one-file.1 -> /usr/local/git/share/man/man1/git-merge-one-file.1
+/usr/local/share/man/man1/git-merge-tree.1 -> /usr/local/git/share/man/man1/git-merge-tree.1
+/usr/local/share/man/man1/git-merge.1 -> /usr/local/git/share/man/man1/git-merge.1
+/usr/local/share/man/man1/git-mergetool--lib.1 -> /usr/local/git/share/man/man1/git-mergetool--lib.1
+/usr/local/share/man/man1/git-mergetool.1 -> /usr/local/git/share/man/man1/git-mergetool.1
+/usr/local/share/man/man1/git-mktag.1 -> /usr/local/git/share/man/man1/git-mktag.1
+/usr/local/share/man/man1/git-mktree.1 -> /usr/local/git/share/man/man1/git-mktree.1
+/usr/local/share/man/man1/git-multi-pack-index.1 -> /usr/local/git/share/man/man1/git-multi-pack-index.1
+/usr/local/share/man/man1/git-mv.1 -> /usr/local/git/share/man/man1/git-mv.1
+/usr/local/share/man/man1/git-name-rev.1 -> /usr/local/git/share/man/man1/git-name-rev.1
+/usr/local/share/man/man1/git-notes.1 -> /usr/local/git/share/man/man1/git-notes.1
+/usr/local/share/man/man1/git-p4.1 -> /usr/local/git/share/man/man1/git-p4.1
+/usr/local/share/man/man1/git-pack-objects.1 -> /usr/local/git/share/man/man1/git-pack-objects.1
+/usr/local/share/man/man1/git-pack-redundant.1 -> /usr/local/git/share/man/man1/git-pack-redundant.1
+/usr/local/share/man/man1/git-pack-refs.1 -> /usr/local/git/share/man/man1/git-pack-refs.1
+/usr/local/share/man/man1/git-parse-remote.1 -> /usr/local/git/share/man/man1/git-parse-remote.1
+/usr/local/share/man/man1/git-patch-id.1 -> /usr/local/git/share/man/man1/git-patch-id.1
+/usr/local/share/man/man1/git-prune-packed.1 -> /usr/local/git/share/man/man1/git-prune-packed.1
+/usr/local/share/man/man1/git-prune.1 -> /usr/local/git/share/man/man1/git-prune.1
+/usr/local/share/man/man1/git-pull.1 -> /usr/local/git/share/man/man1/git-pull.1
+/usr/local/share/man/man1/git-push.1 -> /usr/local/git/share/man/man1/git-push.1
+/usr/local/share/man/man1/git-quiltimport.1 -> /usr/local/git/share/man/man1/git-quiltimport.1
+/usr/local/share/man/man1/git-range-diff.1 -> /usr/local/git/share/man/man1/git-range-diff.1
+/usr/local/share/man/man1/git-read-tree.1 -> /usr/local/git/share/man/man1/git-read-tree.1
+/usr/local/share/man/man1/git-rebase.1 -> /usr/local/git/share/man/man1/git-rebase.1
+/usr/local/share/man/man1/git-receive-pack.1 -> /usr/local/git/share/man/man1/git-receive-pack.1
+/usr/local/share/man/man1/git-reflog.1 -> /usr/local/git/share/man/man1/git-reflog.1
+/usr/local/share/man/man1/git-remote-ext.1 -> /usr/local/git/share/man/man1/git-remote-ext.1
+/usr/local/share/man/man1/git-remote-fd.1 -> /usr/local/git/share/man/man1/git-remote-fd.1
+/usr/local/share/man/man1/git-remote.1 -> /usr/local/git/share/man/man1/git-remote.1
+/usr/local/share/man/man1/git-repack.1 -> /usr/local/git/share/man/man1/git-repack.1
+/usr/local/share/man/man1/git-replace.1 -> /usr/local/git/share/man/man1/git-replace.1
+/usr/local/share/man/man1/git-request-pull.1 -> /usr/local/git/share/man/man1/git-request-pull.1
+/usr/local/share/man/man1/git-rerere.1 -> /usr/local/git/share/man/man1/git-rerere.1
+/usr/local/share/man/man1/git-reset.1 -> /usr/local/git/share/man/man1/git-reset.1
+/usr/local/share/man/man1/git-rev-list.1 -> /usr/local/git/share/man/man1/git-rev-list.1
+/usr/local/share/man/man1/git-rev-parse.1 -> /usr/local/git/share/man/man1/git-rev-parse.1
+/usr/local/share/man/man1/git-revert.1 -> /usr/local/git/share/man/man1/git-revert.1
+/usr/local/share/man/man1/git-rm.1 -> /usr/local/git/share/man/man1/git-rm.1
+/usr/local/share/man/man1/git-send-email.1 -> /usr/local/git/share/man/man1/git-send-email.1
+/usr/local/share/man/man1/git-send-pack.1 -> /usr/local/git/share/man/man1/git-send-pack.1
+/usr/local/share/man/man1/git-sh-i18n--envsubst.1 -> /usr/local/git/share/man/man1/git-sh-i18n--envsubst.1
+/usr/local/share/man/man1/git-sh-i18n.1 -> /usr/local/git/share/man/man1/git-sh-i18n.1
+/usr/local/share/man/man1/git-sh-setup.1 -> /usr/local/git/share/man/man1/git-sh-setup.1
+/usr/local/share/man/man1/git-shell.1 -> /usr/local/git/share/man/man1/git-shell.1
+/usr/local/share/man/man1/git-shortlog.1 -> /usr/local/git/share/man/man1/git-shortlog.1
+/usr/local/share/man/man1/git-show-branch.1 -> /usr/local/git/share/man/man1/git-show-branch.1
+/usr/local/share/man/man1/git-show-index.1 -> /usr/local/git/share/man/man1/git-show-index.1
+/usr/local/share/man/man1/git-show-ref.1 -> /usr/local/git/share/man/man1/git-show-ref.1
+/usr/local/share/man/man1/git-show.1 -> /usr/local/git/share/man/man1/git-show.1
+/usr/local/share/man/man1/git-stage.1 -> /usr/local/git/share/man/man1/git-stage.1
+/usr/local/share/man/man1/git-stash.1 -> /usr/local/git/share/man/man1/git-stash.1
+/usr/local/share/man/man1/git-status.1 -> /usr/local/git/share/man/man1/git-status.1
+/usr/local/share/man/man1/git-stripspace.1 -> /usr/local/git/share/man/man1/git-stripspace.1
+/usr/local/share/man/man1/git-submodule.1 -> /usr/local/git/share/man/man1/git-submodule.1
+/usr/local/share/man/man1/git-svn.1 -> /usr/local/git/share/man/man1/git-svn.1
+/usr/local/share/man/man1/git-symbolic-ref.1 -> /usr/local/git/share/man/man1/git-symbolic-ref.1
+/usr/local/share/man/man1/git-tag.1 -> /usr/local/git/share/man/man1/git-tag.1
+/usr/local/share/man/man1/git-unpack-file.1 -> /usr/local/git/share/man/man1/git-unpack-file.1
+/usr/local/share/man/man1/git-unpack-objects.1 -> /usr/local/git/share/man/man1/git-unpack-objects.1
+/usr/local/share/man/man1/git-update-index.1 -> /usr/local/git/share/man/man1/git-update-index.1
+/usr/local/share/man/man1/git-update-ref.1 -> /usr/local/git/share/man/man1/git-update-ref.1
+/usr/local/share/man/man1/git-update-server-info.1 -> /usr/local/git/share/man/man1/git-update-server-info.1
+/usr/local/share/man/man1/git-upload-archive.1 -> /usr/local/git/share/man/man1/git-upload-archive.1
+/usr/local/share/man/man1/git-upload-pack.1 -> /usr/local/git/share/man/man1/git-upload-pack.1
+/usr/local/share/man/man1/git-var.1 -> /usr/local/git/share/man/man1/git-var.1
+/usr/local/share/man/man1/git-verify-commit.1 -> /usr/local/git/share/man/man1/git-verify-commit.1
+/usr/local/share/man/man1/git-verify-pack.1 -> /usr/local/git/share/man/man1/git-verify-pack.1
+/usr/local/share/man/man1/git-verify-tag.1 -> /usr/local/git/share/man/man1/git-verify-tag.1
+/usr/local/share/man/man1/git-web--browse.1 -> /usr/local/git/share/man/man1/git-web--browse.1
+/usr/local/share/man/man1/git-whatchanged.1 -> /usr/local/git/share/man/man1/git-whatchanged.1
+/usr/local/share/man/man1/git-worktree.1 -> /usr/local/git/share/man/man1/git-worktree.1
+/usr/local/share/man/man1/git-write-tree.1 -> /usr/local/git/share/man/man1/git-write-tree.1
+/usr/local/share/man/man1/git.1 -> /usr/local/git/share/man/man1/git.1
+/usr/local/share/man/man1/gitk.1 -> /usr/local/git/share/man/man1/gitk.1
+/usr/local/share/man/man1/gitweb.1 -> /usr/local/git/share/man/man1/gitweb.1
+/usr/local/share/man/man5/gitattributes.5 -> /usr/local/git/share/man/man5/gitattributes.5
+/usr/local/share/man/man5/githooks.5 -> /usr/local/git/share/man/man5/githooks.5
+/usr/local/share/man/man5/gitignore.5 -> /usr/local/git/share/man/man5/gitignore.5
+/usr/local/share/man/man5/gitmodules.5 -> /usr/local/git/share/man/man5/gitmodules.5
+/usr/local/share/man/man5/gitrepository-layout.5 -> /usr/local/git/share/man/man5/gitrepository-layout.5
+/usr/local/share/man/man5/gitweb.conf.5 -> /usr/local/git/share/man/man5/gitweb.conf.5
+/usr/local/share/man/man7/gitcli.7 -> /usr/local/git/share/man/man7/gitcli.7
+/usr/local/share/man/man7/gitcore-tutorial.7 -> /usr/local/git/share/man/man7/gitcore-tutorial.7
+/usr/local/share/man/man7/gitcredentials.7 -> /usr/local/git/share/man/man7/gitcredentials.7
+/usr/local/share/man/man7/gitcvs-migration.7 -> /usr/local/git/share/man/man7/gitcvs-migration.7
+/usr/local/share/man/man7/gitdiffcore.7 -> /usr/local/git/share/man/man7/gitdiffcore.7
+/usr/local/share/man/man7/giteveryday.7 -> /usr/local/git/share/man/man7/giteveryday.7
+/usr/local/share/man/man7/gitglossary.7 -> /usr/local/git/share/man/man7/gitglossary.7
+/usr/local/share/man/man7/gitnamespaces.7 -> /usr/local/git/share/man/man7/gitnamespaces.7
+/usr/local/share/man/man7/gitrevisions.7 -> /usr/local/git/share/man/man7/gitrevisions.7
+/usr/local/share/man/man7/gitsubmodules.7 -> /usr/local/git/share/man/man7/gitsubmodules.7
+/usr/local/share/man/man7/gittutorial-2.7 -> /usr/local/git/share/man/man7/gittutorial-2.7
+/usr/local/share/man/man7/gittutorial.7 -> /usr/local/git/share/man/man7/gittutorial.7
+/usr/local/share/man/man7/gitworkflows.7 -> /usr/local/git/share/man/man7/gitworkflows.7
+==> Caveats
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/git
+==> Summary
+🍺  /usr/local/Cellar/git/2.29.2: 1,480 files, 39.7MB
+==> Caveats
+==> git
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/git
+Yuriys-MacBook-Air:~ yuriypeshkichev$ git bash
+git: 'bash' is not a git command. See 'git --help'.
+
+The most similar command is
+	stash
+Yuriys-MacBook-Air:~ yuriypeshkichev$ git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout    Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+Yuriys-MacBook-Air:~ yuriypeshkichev$ ssh-keygen -t rsa -b 4096 -C "<yuri.peshkichev@gmail.com>"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/yuriypeshkichev/.ssh/id_rsa): 
+Created directory '/Users/yuriypeshkichev/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/yuriypeshkichev/.ssh/id_rsa.
+Your public key has been saved in /Users/yuriypeshkichev/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:WmzxgNYpEfDlNUe/OMe6xHSC3NZ5j7VhgMw14KXKEvk <yuri.peshkichev@gmail.com>
+The key's randomart image is:
++---[RSA 4096]----+
+|    ..o.. oo++   |
+|     . *.o+o=..  |
+|      =o*  * ..  |
+|     . o+=.o +.o |
+|       .SE+ B Boo|
+|       +.  + *.++|
+|      .     + ...|
+|           . .   |
+|            .    |
++----[SHA256]-----+
+Yuriys-MacBook-Air:~ yuriypeshkichev$ cd ~/.ssh
+Yuriys-MacBook-Air:.ssh yuriypeshkichev$ ls
+id_rsa		id_rsa.pub
+Yuriys-MacBook-Air:.ssh yuriypeshkichev$ eval "$(ssh-agent -s)"
+Agent pid 9390
+Yuriys-MacBook-Air:.ssh yuriypeshkichev$ ssh-add ~/.ssh/id_rsa
+Identity added: /Users/yuriypeshkichev/.ssh/id_rsa (<yuri.peshkichev@gmail.com>)
+Yuriys-MacBook-Air:.ssh yuriypeshkichev$ cat ~/.ssh/id_rsa.pub | clip
+-bash: clip: command not found
+Yuriys-MacBook-Air:.ssh yuriypeshkichev$ github
+-bash: github: command not found
+Yuriys-MacBook-Air:.ssh yuriypeshkichev$ cat ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDW4B4BVe2cVXecVXtpB/082RMfhZgN4sHJM+rBw7hYLvb7LN5RMOMV7WCFxuAbME4TqGo9mnJNXXklEVBfGsRtzdcbPg65Kqr0CL1JqbG467bdreyR5FZ+hbdd/ZOhQIig0FZSbtSC/ouef0R7NvP0PmHIWSjlg2VZTB4oy2USBbURpalPHcZh+PaC6EkBeeUxNPwubb44YuUBOCSUjWrZQq298oEjGgDjz1pWR8yaVnlXX1Q2dZAjcKT+4LmLkgGJjl+WlDKgqv5fAsy3G1E14UiTNP1AOO+eLug6JNbYnNo1Na1fb/939EBWzQ0N13dSqiIA+4F7pWsQNVhWxnPhA7ZKWLXP0SCs7kYFmmdr4UXqNg3WVIprzwadcG+IIPdYCyA2UFXef37qZ65fjW3LoNQMva6jmLxX4GL9HYI5EHRA5/fQmsDs5mJESb4BxYWyEThUahYD6Bd5ufQ7eF0baPEGR+/DiaJbXg/louLpzPueyAsUWFYuFKSCpvsC0ZP4W/NMGKaUf8zwR6m/dTLkdCSDSkeLyeNfc1s2bFIAS/7aCnYdKCsDUJFUyzjmx4QLCj3w2MFixytLQKSsRWq6wN3yZ2Q/kekEENoKS4kp9NJQdlLwx5/0erpIHHfZZqMyoiRnBDMmlrBF5cscSFwQGxlxTazlxDPl9HH8c9rBFw== <yuri.peshkichev@gmail.com>
+Yuriys-MacBook-Air:.ssh yuriypeshkichev$ cd ~/Downloads
+Yuriys-MacBook-Air:Downloads yuriypeshkichev$ git clone git@github.com:yupesh/testrepo.git
+Cloning into 'testrepo'...
+The authenticity of host 'github.com (140.82.121.3)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,140.82.121.3' (RSA) to the list of known hosts.
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+Yuriys-MacBook-Air:Downloads yuriypeshkichev$ cd testrepo/
+Yuriys-MacBook-Air:testrepo yuriypeshkichev$ ls
+README.md
+Yuriys-MacBook-Air:testrepo yuriypeshkichev$ open README.md
+Yuriys-MacBook-Air:testrepo yuriypeshkichev$ vi test.txt
+Yuriys-MacBook-Air:testrepo yuriypeshkichev$ ls
+README.md
+Yuriys-MacBook-Air:testrepo yuriypeshkichev$ vi test.txt
+
+
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+"test.txt" [New File]
